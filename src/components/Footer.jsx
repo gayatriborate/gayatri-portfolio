@@ -11,13 +11,13 @@ const Footer = () => {
     <footer className="bg-black px-6 py-12 text-white">
       <div className="mx-auto max-w-6xl">
 
-        {/* Top Border */}
+      
         <div className="border-t border-white/20" />
 
-        {/* Main Footer */}
+        
         <div className="grid gap-10 py-12 md:grid-cols-3">
 
-          {/* Brand */}
+          
           <div>
             <h2 className="text-4xl font-bold">
               Gayatri<span className="text-cyan-400">.</span>
@@ -33,7 +33,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links */}
+         
           <div>
             <h3 className="mb-5 text-sm font-semibold uppercase tracking-widest text-gray-500">
               Quick Links
@@ -79,7 +79,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Connect */}
+          
           <div>
             <h3 className="mb-5 text-sm font-semibold uppercase tracking-widest text-gray-500">
               Connect
@@ -116,10 +116,9 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Middle Border */}
         <div className="border-t border-white/10" />
 
-        {/* Bottom */}
+        
         <div className="flex flex-col gap-4 py-6 text-sm text-gray-500 md:flex-row md:items-center md:justify-between">
 
           <p>
@@ -129,15 +128,7 @@ const Footer = () => {
           <p>
             Designed & Built with React
           </p>
-
-          <button
-            onClick={() => scrollToSection("home")}
-            className="w-fit text-gray-300 transition hover:text-cyan-400"
-          >
-            Back to top ↑
-          </button>
-
-        </div>
+         </div>
 
       </div>
     </footer>

@@ -9,7 +9,7 @@ const projects = [
       'A full stack system for managing products, suppliers, customers, purchases and sales with AI-based demand forecasting and chatbot features.',
     technologies: ['Python', 'Django', 'DRF', 'React', 'MySQL', 'AI'],
     github:
-      'https://github.com/gayatriborate/ai-inventory-sales-management',
+      'https://github.com/gayatriborate/AI-Inventory-Management-System',
     demo: '#',
   },
   {

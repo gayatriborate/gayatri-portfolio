@@ -3,7 +3,7 @@ import Navbar from './components/Navbar.jsx'
 import Home from './components/Home.jsx'
 import About from './components/About.jsx'
 import Services from './components/Services.jsx'
-
+import BackToTop from "./components/BackToTop";
 import Skills from './components/Skills.jsx'
 import Projects from './components/Project.jsx'
 import Contact from './components/Contact.jsx'
@@ -21,6 +21,7 @@ const App = () => {
       <Projects />
       <Contact />
       <Footer />
+         <BackToTop />
       </main>
     </div>
   )
